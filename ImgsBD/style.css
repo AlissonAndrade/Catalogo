@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+   
+} 
+    
+h1 {
+    text-align: center;
+    background-color: orange;
+}
+
+.content-imgs img{
+    height: 250px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid orange;
+}
+
+.content-imgs {
+    display: grid;
+    align-items: flex-start;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, 250px);
+    column-gap: 10px;
+    background-color: rgb(247, 224, 95);
+    padding: 10px;
+    
+}
+
+.content-imgs li {
+    list-style: none;
+    margin: 10px;
+}
+
+
